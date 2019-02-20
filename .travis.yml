@@ -1,5 +1,5 @@
 language: php
 php:
-  - '7.0'
+  - '5.5'
   - hhvm # on Trusty only
   - nightly
