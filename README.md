@@ -11,3 +11,6 @@ Create A pull request and I will approve / Disapprove ASAP
 If you want to contribute go ahead
 # LICENSE
 This project is licensed using dbad
+# Tested on
+PHP 5.5
+PHP 7.3.2
