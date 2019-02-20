@@ -1,0 +1,40 @@
+/*
+# DON'T BE A DICK PUBLIC LICENSE
+
+> Version 1.1, December 2016
+
+> Copyright (C) 2019, xrillex
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document.
+
+> DON'T BE A DICK PUBLIC LICENSE
+> TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+1. Do whatever you like with the original work, just don't be a dick.
+
+   Being a dick includes - but is not limited to - the following instances:
+
+ 1a. Outright copyright infringement - Don't just copy this and change the name.
+ 1b. Selling the unmodified original with no work done what-so-ever, that's REALLY being a dick.
+ 1c. Modifying the original work to contain hidden harmful content. That would make you a PROPER dick.
+
+2. If you become rich through modifications, related works/services, or supporting the original work,
+share the love. Only a dick would make loads off this work and not buy the original work's
+creator(s) a pint.
+
+3. Code is provided with no warranty. Using somebody else's code and bitching when it goes wrong makes
+you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix back.
+
+*/
+body {font-family:Arial, Sans-Serif;}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+.form{width: 300px; margin: 0 auto;}
+input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 10px; color: #333; font-size: 14px; margin-top: 10px;}
+input[type='submit']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}
+input[type='submit']:hover {background-color: #024978;}
+input[type='file']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}
+input[type='file']:hover {background-color: #024978;}
