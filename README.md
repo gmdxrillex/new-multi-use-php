@@ -1,5 +1,5 @@
-# multi-use-php
-PHP Website with multiple uses [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
+# multi-use-php [![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
+PHP Website with multiple uses
 This PHP Website is multi-use it has file upload registration Disable / enable options in conf.php
 # TO Enable / disable options
 In Order to enable to disable edit the conf.php with any text / code editor.
