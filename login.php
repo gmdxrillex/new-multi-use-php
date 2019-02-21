@@ -56,11 +56,6 @@ if(empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
 
 	}else
 
-
-
-
-
-
 	session_start();
     // If form submitted, insert values into the database.
     if (isset($_POST['username'])){
