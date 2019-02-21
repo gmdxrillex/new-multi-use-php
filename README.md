@@ -8,7 +8,7 @@ Set value to any number other than 0 to enable the option
 # To contribute
 Create A pull request and I will approve / Disapprove ASAP
 # If you want me to add a feature
-Create an issue and I will add to my [to do list](https://github.com/gmdxrillex/new-multi-use-php/projects/2)
+Create an issue and I will add to my [to do list](https://github.com/xrillex/new-multi-use-php/projects/2)
 # LICENSE
 This project is licensed using dbad
 # Tested on
