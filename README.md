@@ -7,8 +7,8 @@ Set a value to 0 to disable an option
 Set value to any number other than 0 to enable the option
 # To contribute
 Create A pull request and I will approve / Disapprove ASAP
-# Admin Panel Not Done
-If you want to contribute go ahead
+# If you want me to add a feature
+Create an issue and I will add to my [to do list](https://github.com/gmdxrillex/new-multi-use-php/projects/2)
 # LICENSE
 This project is licensed using dbad
 # Tested on
