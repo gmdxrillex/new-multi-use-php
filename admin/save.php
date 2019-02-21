@@ -26,47 +26,30 @@ creator(s) a pint.
 
 3. Code is provided with no warranty. Using somebody else's code and bitching when it goes wrong makes
 you a DONKEY dick. Fix the problem yourself. A non-dick would submit the fix back.
+
 */
-require('../conf/db.php'); //connect to database
-include("../auth/auth.php"); //include auth.php file on all secure pages
-require '../auth/admin.php';
-//HTTPS
+
 if(empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] == "off"){
     $redirect = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
     header('HTTP/1.1 301 Moved Permanently');
     header('Location: ' . $redirect);
     exit();
 }
+?>
+<?php
+include("../auth/auth.php");
+require("../auth/admin.php");
+include('../conf/conf.php');
+include('../conf/db.php');
+
+if (isset($_POST["submit"])) {
+echo "Success, Logging Change in database, ", $_SESSION['username'];
+echo "\n //This is not working yet";
+
+}else {
+  echo"Error";
+}
+
 
 
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Admin Settings - Secured Page</title>
-<link rel="stylesheet" href="../css/style.css" />
-</head>
-<body>
-<div class="form">
-<p>Admin Settings, Welcome Back <?php echo $_SESSION['username']; ?></p>
-<p>This is the admin page.</p>
-<p>Work in progress.</p>
-
-<p><b>Login</b></p>
-<form action="save.php" method="post" enctype="multipart/form-data">
-
-<select name="Login">
- <option value="lenabled">Enabled</option>
- <option value="ldisabled">Disabled</option>
-</select>
-
-<p><input type="submit" value="Save" name="submit"></p>
-
-</form>
-
-<br /><br /><br /><br />
-
-</div>
-</body>
-</html>
