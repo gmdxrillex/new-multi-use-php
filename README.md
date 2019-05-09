@@ -1,4 +1,4 @@
-# multi-use-php [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://xrillex.tk)
+# multi-use-php [![Build Status](https://travis-ci.org/dwyl/esta.svg?branch=master)](https://xrillex.com)
 PHP Website with multiple uses
 This PHP Website is multi-use it has file upload registration Disable / enable options in conf.php
 # TO Enable / disable options
