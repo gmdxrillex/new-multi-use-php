@@ -45,7 +45,7 @@ $listing_open = 1;
 //edit file
 $editfile = 1;
 //Close / Open admin panel
-$admin_open = 1;
+$admin_open = 0;
 //Open or close Login API
-$login_api = 1;
+$login_api = 0;
 ?>
